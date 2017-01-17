@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accenture Challenge</title>
+  <!-- You can use Open Graph tags to customize link previews.
+  Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://nerdale.github.io/accenture-challenge/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Mi paseo" />
+  <meta property="og:description"   content="viajes" />
+  <meta property="og:image"         content="https://nerdale.github.io/accenture-challenge/path/image.jpg" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--COMPARTIR-->
+	<div class="col-xs-12">
+		<div class="row">
+			<div id="base"></div>
+			<div class="fotos"></div>
+			<div class="form-group">
+				<label for="comment">Comment:</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+			<div class="fb-share-button" 
+			data-href="https://nerdale.github.io/accenture-challenge" 
+			data-layout="button_count">
+		</div>
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		</div>
+	</div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8&appId=1549853351695843";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://use.fontawesome.com/832bae2e01.js"></script>
+
+
+</body>
+</html>

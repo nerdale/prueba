@@ -1,0 +1,55 @@
+/*.thumb{
+     height: 300px;
+     border: 1px solid #000;
+     margin: 10px 5px 0 0;
+}*/
+
+#list img {
+  max-width: 100px;
+  height: 70px;
+  display:block;
+  margin-top: 1%;
+  position: relative;
+  left: 4%
+
+}
+#lista{
+    position:relative;
+    left:2%;
+}
+
+#deleteImgs {
+  display: none;
+}
+.element {
+  display: inline-flex;
+  align-items: center;
+}
+i.fa-camera {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+i:hover {
+  opacity: 0.6;
+}
+input {
+  display: none;
+}
+.descripcion{
+    width: 16%;
+    position: absolute;
+    left: 29%;
+    margin-top: 2%;
+}
+.checkbox{
+    position: relative;
+    left: 5%;
+    top: 3.5%;
+}
+i.fa-camera{
+    font-size: 52px;
+}
+#files{
+  color: #13152D;
+}

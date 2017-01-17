@@ -1,0 +1,55 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #fff700;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px; 
+    animation: spin 2s linear infinite;
+    margin-top: -161px;
+    margin-left: 130px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.mapa{
+    height: 60vh;
+    width: 88%;
+    background-color: grey;
+    z-index: 1;
+    margin-left: 62px;
+    margin-top: -1700px;
+}
+p, .fa-camera{
+  color:#DFE21A;
+  margin-left: 7%;
+  font-size: 100px;
+  display: inline-block;
+  margin-top: -70px;
+}
+ .fa-map{
+  font-size: 100px ;
+  margin-left: 563%;
+  display:inline-block;
+}
+.slide{
+  height:25vh;
+  width:88%;
+  background-color:grey;
+  margin-left: 6%;
+}
+.fotos{
+  height:70vh;
+  width:88%;
+  background-color: grey;
+  margin-top: -1672px;
+  margin-left: 57px;
+}
+.form-group{
+  width:88%;
+  margin-left:40px;
+}
+.fa{
+  font-size: 20px !important;
+}
